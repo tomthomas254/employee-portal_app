@@ -1,0 +1,42 @@
+.details-img {
+  display: block;
+  margin: 10px auto 0 auto;
+  height: 150px;
+  border: 2px solid lightgrey;
+  border-radius: 50%;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+.email,
+.name {
+  display: block;
+  border: solid 2px lightgrey;
+  border-radius: 50%;
+  padding: 7px;
+  filter: opacity(70%);
+}
+
+.details-name {
+  display: flex;
+  justify-content: center;
+  margin: 50px auto 0 auto;
+}
+.details-name i {
+  margin: 2px 0 0 15px;
+}
+.details-name h5 {
+  margin: 4px 0 0 0;
+  padding: 0 0 0 10px;
+}
+.details-email {
+  display: flex;
+  justify-content: center;
+  margin: 20px 0 0 0;
+}
+.details-email i {
+  margin: 2px 0 0 15px;
+}
+.details-email h5 {
+  margin: 4px 0 0 0;
+  padding: 0 0 0 10px;
+}

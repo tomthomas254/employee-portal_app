@@ -1,0 +1,72 @@
+.login-content {
+  padding: 40px 10px;
+  border: solid 2px lightgrey;
+  border-radius: 5px;
+  background-color: white;
+  margin: 70px auto;
+  width: 400px;
+  overflow: hidden;
+  box-shadow: 5px 5px 15px grey;
+}
+
+.login-content_email,
+.login-content_password {
+  padding: 3px 0 0 5px;
+  border-bottom: solid 2px lightgrey;
+  border-radius: 5px;
+  margin: 30px 10px 20px 15px;
+}
+
+.login-content_login-button {
+  padding: 5px;
+  margin: 40px 0 0 100px;
+}
+.login-content_login-button button {
+  padding: 6px 10px;
+  width: 150px;
+  border: 2px solid lightgrey;
+  border-radius: 19px;
+  background-color: rgb(44, 44, 238);
+  color: white;
+  font-weight: bolder;
+  cursor: pointer;
+}
+
+.login-content_registerForget {
+  display: flex;
+  flex-direction: row;
+}
+
+.login-content_registerForget button {
+  margin: auto;
+  padding: 50px 0 10px 0;
+  font-weight: bold;
+  color: darkgray;
+  cursor: pointer;
+  border: none;
+  background-color: white;
+}
+.fa-eye {
+  padding: 0 5px 0 0;
+  filter: opacity(70%);
+  cursor: pointer;
+}
+.login-content_show-eye {
+  border: none;
+  background-color: white;
+}
+
+.login-content_header {
+  font-size: 20px;
+  padding: 15px 0 25px 50px;
+  color: lightgrey;
+  font-weight: 500;
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: italic;
+}
+
+.login-content_invalid p {
+  font-size: 20px;
+  margin: 50px 0 0 100px;
+  color: red;
+}

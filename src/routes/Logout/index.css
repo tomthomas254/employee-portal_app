@@ -1,0 +1,27 @@
+
+.logout-name {
+    display: flex;
+    justify-content: center;
+    margin: 50px auto 0 auto;
+  }
+
+  .logout-name h3 {
+    margin: 4px 0 0 0;
+    padding: 0 0 0 10px;
+    line-height: 200px;
+  }
+
+  .logout-login_button{
+    display: block;
+    margin: 0 auto 0 auto;
+    padding: 8px 15px;
+    background-color: rgba(38, 38, 243, 0.884);
+    color: white;
+    font-weight: bold;
+    border: 2px solid lightgrey;
+    border-radius: 8px;
+    cursor: pointer;
+  }
+  .logout-login_button:hover{
+    border: 2px solid greenyellow;
+  }

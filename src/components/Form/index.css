@@ -1,0 +1,14 @@
+.fa-user,
+.fa-key {
+  border: solid 2px lightgrey;
+  padding: 5px;
+  border-radius: 50%;
+  filter: opacity(70%);
+}
+input {
+  border: none;
+  padding: 5px;
+  filter: opacity(70%);
+  font-weight: bold;
+  width: 290px;
+}

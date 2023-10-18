@@ -1,0 +1,17 @@
+.logout-button {
+  color: white;
+  font-weight: bold;
+  padding: 3px 7px;
+  background-color: crimson;
+  border: 2px solid rgb(54, 48, 48);
+  border-radius: 15px;
+  cursor: pointer;
+}
+.logout-button a {
+  color: white;
+}
+
+.image img {
+  border-radius: 50%;
+  border: solid 2px white;
+}

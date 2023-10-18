@@ -1,0 +1,9 @@
+.item-view{
+    margin: 15px 0 0 0;
+}
+.item-view button{
+    background-color:rgba(179, 176, 176, 0.863);
+    padding: 2px 5px;
+    border-radius: 5px;
+    cursor: pointer;
+}
